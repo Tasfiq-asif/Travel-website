@@ -5,5 +5,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', 'Helvetica Neue',;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 5%;
+    background: seagreen;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-media{
+    margin: 0 auto 0 50px;
+}
+
+.social-media a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.social-media a i{
+    font-size:20px;
+    color: white;
+    transition: .5s;
+
+}
+
+.social-media a:hover {
+    background: white;
+}
+
+.social-media a:hover i{
+    color: seagreen;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    text-shadow:  0 0 10px rgba(0,0, 0,.2);
+   
+}
+
